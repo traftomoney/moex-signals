@@ -6,7 +6,7 @@ package.domain = com.moex.trader
 source.dir = .
 source.include_exts = py,png,jpg,kv,atlas,ttf,json
 version = 1.0
-requirements = python3,kivy==2.2.1,requests,plyer,pytz,android
+requirements = python3==3.11.6,kivy==2.2.1,requests,plyer,pytz
 android.permissions = INTERNET,ACCESS_NETWORK_STATE,WAKE_LOCK,FOREGROUND_SERVICE,RECEIVE_BOOT_COMPLETED,POST_NOTIFICATIONS
 android.api = 34
 android.minapi = 21
