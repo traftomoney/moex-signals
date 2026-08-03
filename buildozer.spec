@@ -11,7 +11,7 @@ android.permissions = INTERNET,ACCESS_NETWORK_STATE,WAKE_LOCK,FOREGROUND_SERVICE
 android.api = 34
 android.minapi = 21
 android.targetapi = 34
-android.archs = arm64-v8a, armeabi-v7a
+android.archs = arm64-v8a
 orientation = portrait
 fullscreen = 0
 log_level = 2
@@ -19,8 +19,8 @@ android.accept_sdk_license = True
 android.ndk = 27
 android.sdk = 34
 presplash.color = #1a1a2e
-android.sdk_path = /home/runner/.buildozer/android/platform/android-sdk
-android.ndk_path = /home/runner/.buildozer/android/platform/android-ndk-r27
+p4a.hook = .p4a/hooks/prebuild.py
+p4a.pip_version = 24.0
 
 [buildozer]
 build_dir = ./.buildozer
