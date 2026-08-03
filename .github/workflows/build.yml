@@ -3,7 +3,7 @@ name: Build APK
 on:
   push:
     branches: [ main ]
-  workflow_dispatch:  # Можно запустить вручную
+  workflow_dispatch:
 
 jobs:
   build:
@@ -24,7 +24,7 @@ jobs:
           git zip unzip openjdk-17-jdk \
           python3-pip autoconf libtool \
           pkg-config zlib1g-dev libncurses5-dev \
-          libncursesw5-dev libtinfo5 cmake \
+          libncursesw5-dev cmake \
           libffi-dev libssl-dev
 
     - name: Install Buildozer
